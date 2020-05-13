@@ -34,13 +34,13 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  A = []
+  new_array = []
   array.find do |str|
     if str.start_with?("a")
-      A.push(str)
+      new_array.push(str)
     end
     
-    return A
+    return new_array
     
 end
 
