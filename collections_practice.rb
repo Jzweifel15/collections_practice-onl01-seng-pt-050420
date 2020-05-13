@@ -52,12 +52,15 @@ def sum_array(array)
 end
 
 def add_s(array)
+  
   array.collect do |str|
     if array[1] == str 
       return str
     else
-      
+      return str + "s"
+    end
   end
+  
 end
 
 
