@@ -36,7 +36,7 @@ end
 def find_a(array)
   A = []
   array.find do |str|
-    if str.start_with?('a')
+    if str.start_with?("a")
       A.push(str)
     end
     
