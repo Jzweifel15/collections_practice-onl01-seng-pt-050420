@@ -32,3 +32,8 @@ def kesha_maker(array)
   return kesha
 
 end
+
+def find_a(array)
+  array.starts_with?
+end
+
