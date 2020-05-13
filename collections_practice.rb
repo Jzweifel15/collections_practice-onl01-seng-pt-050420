@@ -26,7 +26,9 @@ def kesha_maker(array)
   kesha = []
   
   array.each do |maker|
-    
+    kesha.push(maker.concat("$", 2))
   end
+  
+  return kesha
 
 end
