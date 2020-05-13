@@ -39,5 +39,8 @@ def find_a(array)
     if str.start_with?('a')
       A.push(str)
     end
+    
+    return A
+    
 end
 
