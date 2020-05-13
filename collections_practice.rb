@@ -34,6 +34,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.starts_with?('a').
+  A = []
+  array.find do |str|
+    if str.start_with?('a')
+      A.push(str)
+    end
 end
 
