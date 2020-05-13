@@ -53,7 +53,8 @@ end
 
 def add_s(array)
   array.collect do |str|
-    if 
+    if array[1] == str 
+      
   end
 end
 
