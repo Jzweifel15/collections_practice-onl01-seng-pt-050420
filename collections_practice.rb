@@ -35,10 +35,12 @@ end
 
 def find_a(array)
   new_array = []
+  
   array.find do |str|
     if str.start_with?("a")
       new_array.push(str)
     end
+  end
     
     return new_array
     
